@@ -1,0 +1,16 @@
+[package]
+name = "cmdlist"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0"
+inquire = "0.7"
+regex = "1.10"
+crossterm = "0.25"
+
+[[bin]]
+name = "cmdlist"
+path = "src/main.rs"
